@@ -40,6 +40,9 @@ export default function RootLayout({
             <li>
               <Link href={"/contact"}>Contact</Link>
             </li>
+            <li>
+              <Link href={"/users"}>Users</Link>
+            </li>
           </ul>
         </nav>
         <main className="px-8 py-4">{children}</main>
